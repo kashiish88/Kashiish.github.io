@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Best Online Fashion influencer in India | StyleinMe.com</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="css/phone.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+<style>
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image:url('bg.jpg');
+    background-position: center sticky;
+     background-attachment: fixed;
+    background-size:cover;
+    background-repeat:no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+:root{
+    --navbar-height: 65px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar::before{
+    content: "";
+    background-color: brown;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+#logo{
+    margin: 10px 34px;
+}
+
+#logo img{
+    border-radius:50px;
+    height: 59px;
+    margin: 3px 6px;
+}
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: black;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: pink;
+    background-color: black;
+}
+
+/* Home Section */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before{
+    content: "";
+    position:absolute;
+    /* background:url('C:\Users\kn\Desktop\kk\project\bg.jpg') height 100px width 100px no-repeat center center/cover; */
+    height:100px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.89;
+}
+
+#home h1{
+    position:absolute;
+    color:black;
+    text-align:center;
+    font-family: 'Bree Serif', serif;
+}
+
+#home p{
+    position:relative;
+    color:blue;
+    text-align:center;
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+}
+#services{
+    margin: 34px;
+    display: flex;
+}
+#services .box{
+    border: 20px solid purple;
+    padding: 34px;
+    margin: 55px 55px;
+    border-radius: 50px;
+    background:#;
+    margin-bottom: 20px;
+}
+
+#services .box img{
+   height: 160px;
+    display: block;
+   margin: auto;
+  
+}
+
+#services .box p{
+    color:blue;
+    font-family: 'Bree Serif', serif;
+
+}
+
+/* Clients Section */
+#client-section{
+    position: relative;
+}
+
+#client-section::before{
+ content: "";
+ position: absolute;
+ background: url('../bg.jpg');
+ width: 100%;
+ height: 100%;
+ z-index: -1;
+ opacity: 0.3;
+}
+
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-item{
+    padding: 34px;
+}
+
+#clients img{
+    height: 124px;
+}
+
+
+/* Contact Section */
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('../contact.jpg') no-repeat center center/cover;
+
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+
+#contact-box form{
+    width: 40%;
+}
+
+#contact-box label{
+   font-size: 1.3rem;
+   font-family: 'Bree Serif', serif;
+
+}
+
+
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+}
+
+/* Utility Classes */
+.h-primary{
+    font-family: 'Bree Serif', serif;
+    font-size: 3.8rem;
+    padding: 12px;
+}
+
+.h-secondary{
+    font-family: 'Bree Serif', serif;
+    font-size: 2.3rem;
+    padding: 20px;
+}
+
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+.center{
+    text-align: center;
+}
+</style>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="C:\Users\kn\Desktop\kk\project\logo.png" alt="StyleinMe.com">
+        </div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services-container">Services</a></li>
+            <li class="item"><a href="#client-section">Our Clients</a></li>
+            <li class="item"><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+<div id="home">
+
+
+</div>
+        <h1 class="h-primary">Welcome to StyleinMe</h1>
+        <p>....Fashion fades but Style is eternal.... </p>
+        <p>BE THE CHANGE...BE THE YOU </p>
+        <button class="btn">Check Out Now</button>
+    </section>
+
+    <section id="services-container">
+        <h1 class="h-primary center">||Get To Know||</h1>
+        <div id="services">
+            <div class="box">
+                <img src="C:\Users\kn\Desktop\kk\project\women.jpg" alt="women.jpg">
+                <h2 class="h-secondary center">Womens fashion</h2>
+                <p class="center">Today womens clothing is a line of ultimate representation of a womens body</p>
+            </div>
+            <div class="box">
+                <img src="C:\Users\kn\Desktop\kk\project\men.jpg" alt="boys.jpg">
+                <h2 class="h-secondary center">Mens Fashion</h2>
+                <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, culpa suscipit error
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde laudantium a incidunt animi ad, ab dignissimos vero? Unde numquam odit repudiandae perferendis nisi.
+
+                    sint delectus ab dolorum nam. Debitis facere, incidunt voluptates eos, mollitia voluptatem iste sunt
+                    voluptas beatae facilis labore, omnis sint quae eum.</p>
+            </div>
+            <div class="box">
+                <img src="C:\Users\kn\Desktop\kk\project\kid.jpg" alt="kids">
+                <h2 class="h-secondary center">kids fashion</h2>
+                <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, culpa suscipit error
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus provident fugiat aliquam minima at explicabo. Earum eveniet quaerat, sunt molestias nesciunt quas! Quis.
+                    sint delectus ab dolorum nam. Debitis facere, incidunt voluptates eos, mollitia voluptatem iste sunt
+                    voluptas beatae facilis labore, omnis sint quae eum.</p>
+            </div>
+        </div>
+    </section>
+    <section id="client-section">
+        <h1 class="h-primary center">Our Clients</h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="C:\Users\kn\Desktop\kk\project\logo4.png" alt="HM">
+            </div>
+            <div class="client-item">
+                <img src="C:\Users\kn\Desktop\kk\project\logo1.png" alt="amazon">
+            </div>
+         
+            <div class="client-item">
+                <img src="C:\Users\kn\Desktop\kk\project\logo2.png" alt="myntra">
+            </div>
+            <div class="client-item">
+                <img src="C:\Users\kn\Desktop\kk\project\logo3.png" alt="flipkart">
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="email" name="name" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number: </label>
+                    <input type="phone" name="name" id="phone" placeholder="Enter your phone">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message: </label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <p>
+                    <button class="btn">Submit</button>
+                </p>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="center">
+            Copyright &copy; www.StyleinMe.com. All rights reserved!
+        </div>
+    </footer>
+</body>
+
+</html>
+
+
+
+
